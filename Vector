@@ -1548,7 +1548,7 @@ end
 --[[page/Tab]]
     local Update =  loadstring(Game:HttpGet"https://raw.githubusercontent.com/Marismegai/Open-Source/main/H")()
     local Library = Update:Window("Vector Hub","",Enum.KeyCode.F1);
-    local page1 = Library:Tab("General","rbxassetid://11446900930")
+    local page1 = Library:Tab("General")
     local page2 = Library:Tab("Setting","rbxassetid://11446835336")
     local page3 = Library:Tab("Stats","rbxassetid://7040410130")
     local page4 = Library:Tab("Teleport","rbxassetid://6035190846")
@@ -1563,7 +1563,7 @@ end
     local page15 = Library:Tab("Kitsune","rbxassetid://8028233454")
     local page11 = Library:Tab("Shop","rbxassetid://6031265976")
     local page12 = Library:Tab("Misc","rbxassetid://11447063791")
-page1:Seperator("Maris Hub")
+page1:Seperator("Blox Fruits")
 Time = page1:Label("..")
 page1:Label("Username : "..game.Players.LocalPlayer.DisplayName)
 function UpdateTime()
