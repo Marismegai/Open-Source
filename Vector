@@ -205,7 +205,7 @@ ImageButton.Size = UDim2.new(0, 45, 0, 45)
 ImageButton.Draggable = true
 ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BackgroundTransparency = 1
-ImageButton.Image = "rbxassetid://14645512457" -- กำหนดรูปภาพให้กับ ImageButton 
+ImageButton.Image = "rbxassetid://16130568730" -- กำหนดรูปภาพให้กับ ImageButton 
 -- เมื่อคลิกปุ่มใน ImageButton
 function LoadFunction()    
         ImageButton.MouseEnter:Connect(function()
@@ -1611,13 +1611,13 @@ end)
 if _G.Mode == "English" then
 page1:Label("Join My Discord For More News!")
     page1:Button("Copy Discord Link",function()
-         setclipboard("https://discord.gg/977JQXX82w")
+         setclipboard("https://discord.com/invite/S4EtaxnZ3D")
          game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "Successfully copied",Icon = "rbxassetid://14645512457",Duration = 3})
     end)
 else
 page1:Label("เข้าดิสคอร์ดเพื่อข่าวสารต่างๆ")
     page1:Button("ก็อปปี้ลิ้งดิสคอร์ด",function()
-        setclipboard("https://discord.gg/977JQXX82w")
+        setclipboard("https://discord.com/invite/S4EtaxnZ3D")
         game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "คัดลอกเรียบร้อยแล้ว",Icon = "rbxassetid://14645512457",Duration = 3})
     end)
 end
@@ -5952,7 +5952,7 @@ if CustomFindFirstChild(MaterialMob) then
     end)
 end)   
 end              
-Vec("<Color=Yellow>Vector Hub loaded successfully<Color=/>")                                                               
+Vec("<Color=Yellow>Blox Fruit loaded successfully<Color=/>")                                                               
 page2:Seperator("⚙️")
 if _G.Mode == "English"then
 local FastAttackType = {
@@ -12769,7 +12769,7 @@ if _G.Mode == "English" then
         
                     game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Net"):WaitForChild("RF/InteractSubclassQuest"):InvokeServer(unpack(args))
                     if _G.Mode == "English" then 
-                        Vec("<Color=Red>English Version\n:Kill 20 sharks:<Color=/>")
+                        Vec("<Color=Red>Maris Hub\n:Kill 20 sharks:<Color=/>")
                     else
                         Vec("<Color=Red>เวอร์ชั่นภาษาไทย\n:ฆ่าฉลาม 20 ตัว,<Color=/>")
                     end
@@ -13085,7 +13085,7 @@ else
         
                     game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Net"):WaitForChild("RF/InteractSubclassQuest"):InvokeServer(unpack(args))
                     if _G.Mode == "English" then 
-                        Vec("<Color=Red>English Version\n:Kill 20 sharks:<Color=/>")
+                        Vec("<Color=Red>Maris Hub\n:Kill 20 sharks:<Color=/>")
                     else
                         Vec("<Color=Red>เวอร์ชั่นภาษาไทย\n:ฆ่าฉลาม 20 ตัว,<Color=/>")
                     end
