@@ -1563,7 +1563,7 @@ end
     local page15 = Library:Tab("Kitsune","rbxassetid://8028233454")
     local page11 = Library:Tab("Shop","rbxassetid://6031265976")
     local page12 = Library:Tab("Misc","rbxassetid://11447063791")
-page1:Seperator("Vector Hub")
+page1:Seperator("Blox Fruits")
 Time = page1:Label("..")
 page1:Label("Username : "..game.Players.LocalPlayer.DisplayName)
 function UpdateTime()
